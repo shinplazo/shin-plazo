@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Teacher's Day!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container">
+
+        <!-- LEFT PHOTO -->
+        <div class="side-photo left-photo">
+            <img src="C:\Users\Carlojohn\OneDrive\Pictures\school purpose\photo_2026-10-03_17-04-37.jpg"
+                 alt="Our Teacher">
+        </div>
+
+        <!-- MAIN CARD -->
+        <div class="card">
+            <div class="flower">🚴🏽‍♂️</div>
+
+            <h1>Happy Teacher's Day!</h1>
+            <h2>To Our Amazing Teacher 💐</h2>
+
+            <p>
+                Thank you for your patience, kindness,
+                and dedication to teaching us.
+                You inspire us to learn, grow, and
+                become better people every day.
+            </p>
+
+            <p class="thankyou">
+                We are grateful to have you as our teacher! ❤️
+            </p>
+
+            <button onclick="showMessage()">
+                Teacher Day Message Click me
+            </button>
+
+            <p id="surprise"></p>
+
+            <h3>🎵 Teacher Day Song</h3>
+            <p>Play the music for Teacher Day Song!</p>
+
+            <audio controls>
+                <source src="teacher.day.mp3" type="audio/mpeg">
+                
+            </audio>
+
+            <footer>
+                Made with Heart by Your Student Plazo, Shin John Carlo
+            </footer>
+        </div>
+
+        <div class="side-photo right-photo">
+            <img src="C:\Users\Carlojohn\OneDrive\Pictures\school purpose\photo_2026-10-03_17-25-05.jpg"
+                 alt="Our Teacher">
+        </div>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("surprise").innerHTML =
+                "Thank you for being a wonderful teacher! 🌷 You make a difference in our lives!";
+        }
+    </script>
+
+</body>
+</html>
